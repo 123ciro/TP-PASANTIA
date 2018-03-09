@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body >
+      
+        <br>
+        <div id="horizontal" >
+            <header>
+                <div class="menu_bar">
+                    <a href="#" class="bt-menu"> <sub> <i class="fa fa-bars"></i></sub> &nbsp;Menú Universidad Privada</a>
+                </div>
+                <nav id="desplegar">
+                    <ul>
+                        <li><a href="#"><span ></span>Inicio</a></li>
+                        <li class="submenu">
+                            <a href="#">Facultad Economia &nbsp; <sub><i  class="fa">&#xf063;</i></sub> </a>
+                            <ul class="children">
+                                <li><a href="#">Matricula</a></li>
+                                <li><a href="#">Materias</a></li>
+                                <li><a href="#">Cursos</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#"><span ></span>Facultad Informatica &nbsp; <sub><i  class="fa">&#xf063;</i></sub> <span ></span></a>
+                            <ul class="children">
+                                <li><a href="#">Matricula</a></li>
+                                <li><a href="#">Materias</a></li>
+                                <li><a href="#">Cursos</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#" ><i class="fa fa-cog fa-spin"></i> &nbsp; Configuracion &nbsp; <sub><i  class="fa">&#xf063;</i></sub> </a>
+                            <ul class="children">
+                                <li><a href="#" id="hide">Menu Vertical<span ></span></a></li>
+                                <li><a href="#" id="hide1">Vertical Colapsado<span ></span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+
+
+        <div id="vertical" >    
+            <ul class="acorh" >
+                <li><a href="#" >Inicio</a>
+                </li>
+                <li><a href="#" > <i class="material-icons">&#xe80c;</i>&nbsp;Facultad Economia &nbsp; <sub><i  class="fa">&#xf063;</i> </sub></a>
+                    <ul>
+                        <li><a  >Matricula</a></li>
+                        <li><a >Materias</a></li>
+                        <li><a >Cursos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="material-icons">&#xe80c;</i>&nbsp; Facultad Informatica &nbsp;<sub> <i  class="fa">&#xf063;</i></sub></a>
+                    <ul>
+                        <li><a >Matricula</a></li>
+                        <li><a >Materias</a></li>
+                        <li><a >Cursos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" > <i class="fa fa-cog fa-spin"></i> &nbsp; Configuracion &nbsp; <sub><i class="fa">&#xf063;</i></sub></a>
+                    <ul>
+                        <li id="show"><a  >Menu Horizontal</a></li>
+                        <li id="show1"><a  >Vertical Colapsado</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+
+
+
+        <div id="colapsado" >    
+            <ul class="acorh2" >
+                <li><a href="#" style="font-size: 2vw;" >Inicio</a>
+                </li>
+                <li><a href="#" ><i class="material-icons" style="font-size: 4vw;">&#xe80c;</i> </a>
+                    <ul>
+                        <li><a  >Matricula</a></li>
+                        <li><a >Materias</a></li>
+                        <li><a >Cursos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"> <i class="material-icons " style="font-size: 4vw;" >&#xe80c;</i></a>
+                    <ul>
+                        <li><a >Matricula</a></li>
+                        <li><a >Materias</a></li>
+                        <li><a >Cursos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" > <i class="fa fa-cog fa-spin" style="font-size: 4vw;"></i> </a>
+                    <ul>
+                        <li id="horizontal1"><a  >Menu Horizontal</a></li>
+                        <li id="vertical1"><a  >Menu Vertical</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div id="contenido">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+                Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+            </p>
+            <p>
+                Fusce convallis, mauris imperdiet gravida bibendum, nisl turpis suscipit mauris, sed placerat ipsum urna sed risus. In convallis tellus a mauris. Curabitur non elit ut libero tristique sodales. Mauris a lacus. Donec mattis semper leo. In hac habitasse platea dictumst. Vivamus facilisis diam at odio. Mauris dictum, nisi eget consequat elementum, lacus ligula molestie metus, non feugiat orci magna ac sem. Donec turpis. Donec vitae metus. Morbi tristique neque eu mauris. Quisque gravida ipsum non sapien. Proin turpis lacus, scelerisque vitae, elementum at, lobortis ac, quam. Aliquam dictum eleifend risus. In hac habitasse platea dictumst. Etiam sit amet diam. Suspendisse odio. Suspendisse nunc. In semper bibendum libero.
+            </p>
+            <p>
+                Proin nonummy, lacus eget pulvinar lacinia, pede felis dignissim leo, vitae tristique magna lacus sit amet eros. Nullam ornare. Praesent odio ligula, dapibus sed, tincidunt eget, dictum ac, nibh. Nam quis lacus. Nunc eleifend molestie velit. Morbi lobortis quam eu velit. Donec euismod vestibulum massa. Donec non lectus. Aliquam commodo lacus sit amet nulla. Cras dignissim elit et augue. Nullam non diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Aenean vestibulum. Sed lobortis elit quis lectus. Nunc sed lacus at augue bibendum dapibus.
+            </p>
+     
+
+        </div>
+
+        <script>
+            //codigo para esconder el menu vertical inicialmente!
+            $("#vertical").css("display", "none");
+            $("#colapsado").css("display", "none");
+
+
+
+            //codigo para realizar las transiciones del responsive!!
+
+            //despliegue comienza en 1 (esta cerrrado)
+            $(document).ready(main);
+            var despliegue = 1;
+            function main() {
+                $('.menu_bar').click(function () {
+                    if (despliegue === 1) {
+                        $('nav').animate({
+                            left: '0',
+                            top: '69'
+                        });
+                        despliegue = 0;
+                    } else {
+                        despliegue = 1;
+                        $('nav').animate({
+                            left: '-100%'
+                        });
+                    }
+                });
+                $('.submenu').click(function () {
+                    $(this).children('.children').slideToggle();
+                });
+            }
+            //codigo para esconder el menu vertical y horizontal respectivamente!
+            $("#hide").click(function () {
+
+
+
+                $("#horizontal").hide();
+                $("#vertical").show();
+                $("#colapsado").hide();
+                $("#contenido").css("margin-left", "26%");
+    
+
+            });
+            //colapsado activado
+            $("#hide1").click(function () {
+                $("#horizontal").hide();
+                $("#vertical").hide();
+                $("#colapsado").show();
+                $("#contenido").css("margin-left", "10%");
+                    
+
+            });
+
+            $("#show").click(function () {
+                $("#vertical").hide();
+                $("#horizontal").show();
+                $("#contenido").css("margin", "0");
+
+
+            });
+            //aparecer el vertical colpasado en el vertical normal
+            $("#show1").click(function () {
+                $("#vertical").hide();
+                $("#horizontal").hide();
+                $("#colapsado").show();
+                $("#contenido").css("margin-left", "10%");
+             
+
+            });
+            $("#horizontal1").click(function () {
+                $("#vertical").hide();
+                $("#colapsado").hide();
+                $("#horizontal").show();
+                $("#contenido").css("margin", "0");
+
+
+            });
+            $("#vertical1").click(function () {
+
+                $("#colapsado").hide();
+                $("#vertical").show();
+                $("#horizontal").hide();
+                $("#contenido").css("margin-left", "26%");
+
+            });
+
+
+
+        </script>
+    </body>
+</html>
+
